@@ -1718,17 +1718,3 @@ section.padding-60 {
     display: block;
   }
 }
-
-@media (min-width: 320px) and (max-width: 480px) {
-  body {
-    background-color: #de3163;
-  }
-
-  .projectsSM{
-    display: block;
-  }
-
-  #projectsLG{
-    display: none;
-  }
-}
