@@ -29,6 +29,7 @@ Description: Personal Portfolio & Resume HTML Template
 /*=================================================================*/
 /*                      BASE                              
 /*=================================================================*/
+
 body {
   color: #888;
   background-color: #F6F7FF;
@@ -1704,3 +1705,30 @@ section.padding-60 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+@media (min-width:481px) and (max-with:1201px) {
+
+
+  .projectsSM{
+    display: none;
+  }
+
+  #projectsLG{
+    display: block;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    background-color: #de3163;
+  }
+
+  .projectsSM{
+    display: block;
+  }
+
+  #projectsLG{
+    display: none;
+  }
+}
